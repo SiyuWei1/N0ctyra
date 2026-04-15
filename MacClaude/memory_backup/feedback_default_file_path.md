@@ -4,8 +4,8 @@ description: 用户要求创建的文件默认保存到 N0ctyra 仓库的 MacCla
 type: feedback
 originSessionId: fbd8f6f3-9043-478b-8ad7-c3805081202e
 ---
-创建文件时默认保存到 `/Users/n0cytra/OneDrive - The Pennsylvania State University/SIyu W/N0ctyra/MacClaude/`（即 `SiyuWei1/N0ctyra` 仓库的 `MacClaude/` 目录）。
+创建文件时默认保存到 `/Users/n0cytra/N0ctyra/MacClaude/`（即 `SiyuWei1/N0ctyra` 仓库的 `MacClaude/` 目录）。
 
-**Why:** 用户现在通过 N0ctyra 仓库管理文件，MacClaude 是分配给 Claude 的专属工作区，放在这里可以通过 git 同步并保留历史。之前默认的 `SIyu W/` 根目录不再使用。
+**Why:** 用户已将本地仓库从 OneDrive 的 `SIyu W/` 移到 `/Users/n0cytra/N0ctyra/`，并删除了原 `SIyu W/` 文件夹（2026-04-15）。所有文件通过 git 仓库管理和同步。
 
-**How to apply:** 除非用户指定其他路径，所有新建文件放到 `MacClaude/` 下（可自行建子文件夹分类）。创建后记得 `git add/commit/push` 同步到远程仓库。
+**How to apply:** 除非用户指定其他路径，所有新建文件放到 `/Users/n0cytra/N0ctyra/MacClaude/` 下（可按需建子文件夹分类）。创建后执行 `cd /Users/n0cytra/N0ctyra && git add . && git commit -m "..." && git push` 同步到远程。
