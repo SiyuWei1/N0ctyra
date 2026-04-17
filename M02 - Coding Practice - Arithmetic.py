@@ -1,0 +1,10 @@
+int1 = int(input("Enter the first integer: "))
+int2 = int(input("Enter the second integer: "))
+
+print("Sum: ", int1 + int2)
+print("Difference: ", int1 - int2)
+print("Product: ", int1 * int2)
+print("Average: ", (int1 + int2) / 2)
+print("Distance: ", abs(int1 - int2))
+print("Maximum: ", max(int1, int2))
+print("Minimum: ", min(int1, int2))
