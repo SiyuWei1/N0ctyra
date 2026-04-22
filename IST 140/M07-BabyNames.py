@@ -10,7 +10,7 @@ for line in input_file:
   girl_names.append(girl_name)
 
 input_file.close()
-print("Names that appear on both the boys and girls\"list:")
+print("Names that appear on both the boys and girls list:")
 for name in boy_names:
     if name in girl_names:
         print(name)
